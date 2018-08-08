@@ -1,0 +1,83 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+}
+main{
+    width: 70%;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  .twitter{
+    display: flex;
+     border-bottom: .1px solid #d3d3d3; 
+     padding-bottom: 5px;
+     padding-top: 15px;
+  }
+  .twitter__bird{
+      margin-left: auto;
+      margin-right:auto;
+  }
+.heading{
+    color: crimson;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.hello{
+    margin-right:20px;
+}
+.btnLogout{
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 30px;
+   margin-right: 20px;
+    color: white;
+
+}
+.heading,
+.hello{
+    margin-top: 20px;
+}
+.dashboard{
+    background-image: url('/icons/user.png');
+    background-repeat: no-repeat;
+    background-position: 5% 90% ;
+}
+.clients{
+    background-image: url('/icons/profiles.png');
+    background-repeat: no-repeat;
+    background-position: 5% 90% ;
+}
+.settings{
+    background-image: url('/icons/controls.png');
+    background-repeat: no-repeat;
+    background-position: 5% 90% ;
+}
+.upload{
+    background-image: url('/icons/upload.png');
+    background-repeat: no-repeat;
+    background-position: 5% 90% ;
+}
+.help{
+    background-image: url('/icons/question.png');
+    background-repeat: no-repeat;
+    background-position: 5% 90% ;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.sideNav{
+    position: fixed;
+    height: 100%;
+    background-color:#b3b3b3;;
+    width:20%;
+    }
+ul li{
+    padding-top: 20px;
+    padding-left: 40px;
+}
